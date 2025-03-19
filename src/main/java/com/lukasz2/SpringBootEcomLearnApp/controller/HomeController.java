@@ -9,10 +9,10 @@ public class HomeController {
 @RequestMapping("/")
     public String greet(){
     System.out.println("I'm here");
-        return "Welcome to Telusko!";
+        return "Welcome!";
     }
     @RequestMapping("/about")
     public String about(){
-    return "We dont teach";
+    return "about";
     }
 }
